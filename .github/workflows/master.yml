@@ -53,7 +53,7 @@ jobs:
         with:
           testMode: all
           githubToken: ${{ secrets.GITHUB_TOKEN }}
-          customParameters: -debugCodeOptimization -enableCodeCoverage -coverageResultsPath ./coverage-results -coverageHistoryPath ./coverage-results-history -coverageOptions "generateAdditionalMetrics;generateHtmlReport;generateHtmlReportHistory;generateBadgeReport;assemblyFilters:+Aloha"
+          customParameters: -debugCodeOptimization -enableCodeCoverage -coverageResultsPath ./coverage-results -coverageHistoryPath ./coverage-results-history -coverageOptions "generateAdditionalMetrics;generateHtmlReport;generateHtmlReportHistory;generateBadgeReport"
 
       - uses: actions/upload-artifact@v2
         with:
@@ -63,7 +63,7 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: Coverage Results
-          path: CoverageResults/Report
+          path: coverage-results/Report
 
   generateDocumentation:
     needs: checkLicense
@@ -93,7 +93,7 @@ jobs:
       - uses: actions/download-artifact@v2
         with:
           name: Coverage Results
-          path: CoverageResults
+          path: coverage-results
 
       - uses: actions/download-artifact@v2
         with:
