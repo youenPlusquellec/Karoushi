@@ -63,7 +63,7 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: Coverage Results
-          path: coverage-results/Report
+          path: CoverageResults/Report
 
   generateDocumentation:
     needs: checkLicense
@@ -93,7 +93,7 @@ jobs:
       - uses: actions/download-artifact@v2
         with:
           name: Coverage Results
-          path: coverage-results
+          path: CoverageResults
 
       - uses: actions/download-artifact@v2
         with:
