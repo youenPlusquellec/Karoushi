@@ -19,8 +19,7 @@ namespace Karoushi
         /// </summary>
         protected override void Die()
         {
-            Debug.Log("Oh no");
-            Debug.Log("Panda is dead :(");
+            // TODO  Add behavior 
         }
     }
 }
