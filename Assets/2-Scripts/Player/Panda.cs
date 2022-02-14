@@ -10,10 +10,10 @@ namespace Karoushi
     public class Panda : Player
     {        
         /// <summary>
-        /// Called when the player dies.
+        /// Called when the panda dies.
         /// <example> Example(s) :
         /// <code>
-        ///     player.Die();
+        ///     panda.Die();
         /// </code>
         /// </example>
         /// </summary>
