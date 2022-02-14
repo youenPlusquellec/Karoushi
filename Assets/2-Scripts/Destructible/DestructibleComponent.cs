@@ -85,7 +85,7 @@ namespace Karoushi
         protected virtual void Die()
         {
             Debug.Log(this.name + " >> Die()");
-            this.GiveXpToPlayer();
+            this.GiveScoreToPlayer();
         }
     }
 }
