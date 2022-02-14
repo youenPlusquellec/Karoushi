@@ -19,7 +19,7 @@ namespace Karoushi
         protected float currentHealth;
 
         [SerializeField]
-        protected float xpToGive;
+        protected float scoreToGive;
 
         /// <summary>
         /// Default Start function
@@ -61,17 +61,17 @@ namespace Karoushi
         }
 
         /// <summary>
-        /// Gives xp to the player.
+        /// Gives score to the player.
         /// <example> Example(s) :
         /// <code>
-        ///     component.GiveXpToPlayer();
+        ///     component.GiveScoreToPlayer();
         /// </code>
         /// </example>
         /// </summary>
-        protected virtual void GiveXpToPlayer()
+        protected virtual void GiveScoreToPlayer()
         {
-            if (xpToGive <= 0) return;
-            // TODO Get Player and give it experience
+            if (this.scoreToGive <= 0) return;
+            // TODO Add score to total
         }
 
         /// <summary>
