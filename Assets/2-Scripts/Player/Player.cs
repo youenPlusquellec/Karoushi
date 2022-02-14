@@ -34,7 +34,7 @@ namespace Karoushi {
         /// <summary>
         /// Default Start function
         /// </summary>
-        protected void Start()
+        protected virtual void Start()
         {
             this.currentHealth = this.maxHealth;
             this.currentRage = 0;
@@ -57,25 +57,23 @@ namespace Karoushi {
             }
         }
 
-        /*
-        ///////////////////// TODO
         /// <summary>
-        /// This function is called when a player attack another a destrucible component.
+        /// This function is called when a player attack a destructible component.
         /// <example> Example(s):
         /// <code>
-        ///     entity.Attack(anotherEntity);
+        ///     player.Attack(anotherEntity);
         /// </code>
         /// <code>
-        ///     warrior.Attack(assassin);
+        ///     panda.Attack(assassin);
         /// </code>
         /// </example>
         /// </summary>
         /// <param name="entity"></param>
-        public virtual void Attack(Entity entity)
+        public virtual void Attack(DestructibleComponent destructibleComponent)
         {
-            entity.TakeDamage(this.attack);
+            destructibleComponent.TakeDamage(this.attack);
         }
-        */
+        
 
         /// <summary>
         /// This function is called when a player taking damage amount.
@@ -170,8 +168,7 @@ namespace Karoushi {
         /// </summary>
         protected virtual void Die()
         {
-            Debug.Log("Oh no");
-            Debug.Log("Player is dead :(");
+            Debug.Log(this.GetType().Name + "Player >> Die()");
         }
     }
 }

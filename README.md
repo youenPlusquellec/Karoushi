@@ -1,9 +1,9 @@
 # Karoushi
 A little description
 
-![TestPullRequest](https://github.com/AlohaGames/RushTheMusic/actions/workflows/develop.yml/badge.svg?branch=develop)
+![TestPullRequest](https://github.com/youenPlusquellec/Karoushi/actions/workflows/develop.yml/badge.svg?branch=develop)
 
-[![Coverage](../../blob/gh-pages/coverage-results/badge_linecoverage.svg "Line Coverage")](https://alohagames.github.io/RushTheMusic/coverage-results)
+[![Coverage](../../blob/gh-pages/coverage-results/badge_linecoverage.svg "Line Coverage")](https://youenplusquellec.github.io/Karoushi/coverage-results)
 
 ## Documentation
 
