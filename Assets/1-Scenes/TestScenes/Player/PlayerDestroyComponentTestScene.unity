@@ -167,9 +167,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 5
-  currentHealth: 0
-  xpToGive: 5
-  destroyedVersion: {fileID: 899428459418414007, guid: e5f4daf24146ee040b5a2d7a73b30aa0, type: 3}
+  scoreToGive: 0
+  CurrentHealth: 0
+  DestroyedVersion: {fileID: 0}
 --- !u!65 &279471813
 BoxCollider:
   m_ObjectHideFlags: 0

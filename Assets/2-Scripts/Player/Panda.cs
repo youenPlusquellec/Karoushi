@@ -19,6 +19,7 @@ namespace Karoushi
         /// </summary>
         protected override void Die()
         {
+            base.Die();
             // TODO  Add behavior 
         }
     }
