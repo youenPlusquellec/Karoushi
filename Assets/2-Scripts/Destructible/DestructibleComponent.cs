@@ -16,17 +16,20 @@ namespace Karoushi
         protected float maxHealth;
 
         [SerializeField]
-        protected float currentHealth;
-
-        [SerializeField]
         protected float scoreToGive;
+
+        public float CurrentHealth;
+        public bool IsDestroyed
+        {
+            get { return this.isDestroyed; }
+        }
 
         /// <summary>
         /// Default Start function
         /// </summary>
         protected virtual void Start()
         {
-            this.currentHealth = this.maxHealth;
+            this.CurrentHealth = this.maxHealth;
         }
 
         /// <summary>
@@ -45,11 +48,11 @@ namespace Karoushi
                 return;
             }
 
-            currentHealth = currentHealth - damage;
+            CurrentHealth = CurrentHealth - damage;
 
             if (damage > 0)
             {
-                if (currentHealth <= 0)
+                if (CurrentHealth <= 0)
                 {
                     if (!isDestroyed)
                     {
@@ -84,7 +87,7 @@ namespace Karoushi
         /// </summary>
         protected virtual void Die()
         {
-            Debug.Log(this.name + " >> Die()");
+            Debug.Log(this.GetType().Name + " >> Die()");
             this.GiveScoreToPlayer();
         }
     }

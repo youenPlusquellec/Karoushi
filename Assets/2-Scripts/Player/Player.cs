@@ -168,7 +168,7 @@ namespace Karoushi {
         /// </summary>
         protected virtual void Die()
         {
-            Debug.Log(this.name + " >> Die()");
+            Debug.Log(this.GetType().Name + "Player >> Die()");
         }
     }
 }

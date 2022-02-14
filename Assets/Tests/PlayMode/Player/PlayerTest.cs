@@ -13,6 +13,7 @@ namespace Karoushi.Test
         {
             // Set default values
             this.maxHealth = 100;
+            this.currentHealth = 0;
             this.currentRage = 10;
             Assert.AreEqual(0, this.currentHealth);
             Assert.AreEqual(10, this.currentRage);
@@ -44,6 +45,27 @@ namespace Karoushi.Test
             this.TakeDamage(80);
             Assert.AreEqual(0, this.currentHealth);
             Assert.IsTrue(this.isDead);
+
+            // Clear the scene
+            Utils.ClearCurrentScene(true);
+        }
+
+        [Test]
+        public void PlayerCanAttackTest()
+        {
+            // Set default values
+            this.currentHealth = 100;
+            this.attack = 10;
+
+            // Create a destructible component
+            GameObject furnitureGo = new GameObject();
+            DestructibleComponent furniture = furnitureGo.AddComponent<Furniture>();
+            furniture.CurrentHealth = 5;
+            Assert.IsFalse(furniture.IsDestroyed);
+
+            // Attack the component
+            this.Attack(furniture);
+            Assert.IsTrue(furniture.IsDestroyed);
 
             // Clear the scene
             Utils.ClearCurrentScene(true);

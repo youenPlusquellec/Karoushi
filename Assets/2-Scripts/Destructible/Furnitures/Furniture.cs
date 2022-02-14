@@ -9,8 +9,7 @@ namespace Karoushi
     /// </summary>
     public class Furniture : DestructibleComponent
     {
-        [SerializeField]
-        protected GameObject destroyedVersion;
+        public GameObject DestroyedVersion;
 
         /// <summary>
         /// Called when the component is destroyed.
@@ -26,9 +25,9 @@ namespace Karoushi
             base.Die();
 
             // Spawn the shattered version
-            if (destroyedVersion != null)
+            if (DestroyedVersion != null)
             {
-                Instantiate(destroyedVersion, transform.position, transform.rotation);
+                Instantiate(DestroyedVersion, transform.position, transform.rotation);
             }
 
             // Remove the current object
