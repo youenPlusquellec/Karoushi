@@ -180,47 +180,6 @@ namespace Karoushi
                 }
             }
         }
-
-        /// <summary>
-        /// Return if list is empty
-        /// </summary>
-        /// <param name="list"></param>
-        /// <typeparam name="T"></typeparam>
-        /// <returns>True if list is Empty, false otherwise</returns>
-        public static bool IsEmpty<T>(this List<T> list)
-        {
-            return (list.Count == 0);
-        }
-
-        /// <summary>
-        /// Add or Get Component
-        /// </summary>
-        /// <param name="go"></param>
-        /// <typeparam name="T">Component</typeparam>
-        /// <returns>return the component if found add and return it else</returns>
-        public static T AddGetComponent<T>(this GameObject go) where T : Component
-        {
-            T component = go.GetComponent<T>();
-            if (component == null)
-            {
-                component = go.AddComponent<T>();
-            }
-            return component;
-        }
-
-        /// <summary>
-        /// Remove all children
-        /// </summary>
-        /// <param name="transform"></param>
-        /// <returns>root</returns>
-        public static Transform Clear(this Transform transform)
-        {
-            foreach (Transform child in transform)
-            {
-                GameObject.Destroy(child.gameObject);
-            }
-            return transform;
-        }
     }
 }
     
