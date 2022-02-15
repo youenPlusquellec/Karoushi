@@ -28,13 +28,13 @@ namespace Karoushi
                 if (score != null)
                 {
                     score.FurnituresScore += this.scoreToGive;
-                    if (score.DestroyedFurnitures.ContainsKey(this.GetType().Name))
+                    if (score.DestroyedFurnitures.ContainsKey(this.furnitureName))
                     {
-                        score.DestroyedFurnitures[this.GetType().Name] += 1;
+                        score.DestroyedFurnitures[this.furnitureName] += 1;
                     }
                     else
                     {
-                        score.DestroyedFurnitures.Add(this.GetType().Name, 1);
+                        score.DestroyedFurnitures.Add(this.furnitureName, 1);
                     }
                 }
             }
