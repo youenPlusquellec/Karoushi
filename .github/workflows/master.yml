@@ -1,7 +1,7 @@
 name: Test and Build 🎮
 
 on:
-  push: { branches: [master, release, develop, 41-update-CI-CD] }
+  push: { branches: [master, release, develop] }
 
 env:
   UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
