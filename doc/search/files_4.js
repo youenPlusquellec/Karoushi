@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['starterassetsinputs_2ecs_0',['StarterAssetsInputs.cs',['../d3/dc6/_starter_assets_inputs_8cs.html',1,'']]]
+  ['mobiledisableautoswitchcontrols_2ecs_0',['MobileDisableAutoSwitchControls.cs',['../d7/d12/_mobile_disable_auto_switch_controls_8cs.html',1,'']]]
 ];

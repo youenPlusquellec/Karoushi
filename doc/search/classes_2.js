@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['mobiledisableautoswitchcontrols_0',['MobileDisableAutoSwitchControls',['../dc/db9/class_mobile_disable_auto_switch_controls.html',1,'']]]
+  ['destructiblecomponent_0',['DestructibleComponent',['../d6/db2/class_karoushi_1_1_destructible_component.html',1,'Karoushi']]],
+  ['destructiblecomponenttest_1',['DestructibleComponentTest',['../d4/d09/class_karoushi_1_1_test_1_1_destructible_component_test.html',1,'Karoushi::Test']]]
 ];

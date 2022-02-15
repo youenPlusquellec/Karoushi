@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['sprintinput_0',['SprintInput',['../d3/dcd/class_starter_assets_1_1_starter_assets_inputs.html#a0b6c9416893284cd1b6b757d1d4a5a91',1,'StarterAssets::StarterAssetsInputs']]]
+  ['givescoretoplayer_0',['GiveScoreToPlayer',['../d6/db2/class_karoushi_1_1_destructible_component.html#aad2fbeaeb23f38e66617bfb09ea21db0',1,'Karoushi.DestructibleComponent.GiveScoreToPlayer()'],['../d9/d05/class_karoushi_1_1_furniture.html#aa4b747002f0aaf02ef5c256dc913d694',1,'Karoushi.Furniture.GiveScoreToPlayer()']]]
 ];

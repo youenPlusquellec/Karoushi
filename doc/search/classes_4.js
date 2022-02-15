@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['section_0',['Section',['../d8/d98/class_readme_1_1_section.html',1,'Readme']]],
-  ['starterassetsinputs_1',['StarterAssetsInputs',['../d3/dcd/class_starter_assets_1_1_starter_assets_inputs.html',1,'StarterAssets']]]
+  ['mobiledisableautoswitchcontrols_0',['MobileDisableAutoSwitchControls',['../dc/db9/class_mobile_disable_auto_switch_controls.html',1,'']]]
 ];

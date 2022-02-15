@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['moveinput_0',['MoveInput',['../d3/dcd/class_starter_assets_1_1_starter_assets_inputs.html#a8cf20ae92cf85b8aebfb2424fe8c61d9',1,'StarterAssets::StarterAssetsInputs']]]
+  ['enrage_0',['Enrage',['../dc/d83/class_karoushi_1_1_player.html#aeaefa4dc5187a82d6d0a54fe41f50114',1,'Karoushi::Player']]],
+  ['equalfloattest_1',['EqualFloatTest',['../d6/d16/class_karoushi_1_1_test_1_1_utils_test.html#a8ef8543f10460d90897741d6f87e3fba',1,'Karoushi::Test::UtilsTest']]]
 ];

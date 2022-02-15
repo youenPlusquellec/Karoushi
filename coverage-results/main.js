@@ -222,58 +222,26 @@ for (i = 0, l = charts.length; i < l; i++) {
 
 var assemblies = [
   {
-    "name": "Assembly-CSharp",
+    "name": "Karoushi",
     "classes": [
-      { "name": "BasicRigidBodyPush", "rp": "Assembly_CSharp_BasicRigidBodyPush.html", "cl": 0, "ucl": 13, "cal": 13, "tl": 35, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [0], "bch": [], "hc": [{ "et": "02/13/2022 - 13:41:50", "cl": 0, "ucl": 13, "cal": 13, "tl": 35, "lcq": 0, "cb": 0, "tb": 0, "bcq": 0 }] },
-      { "name": "StarterAssets.StarterAssetsInputs", "rp": "Assembly_CSharp_StarterAssetsInputs.html", "cl": 0, "ucl": 35, "cal": 35, "tl": 89, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [0], "bch": [], "hc": [{ "et": "02/13/2022 - 13:41:50", "cl": 0, "ucl": 35, "cal": 35, "tl": 89, "lcq": 0, "cb": 0, "tb": 0, "bcq": 0 }] },
-      { "name": "StarterAssets.ThirdPersonController", "rp": "Assembly_CSharp_ThirdPersonController.html", "cl": 0, "ucl": 155, "cal": 155, "tl": 325, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [0], "bch": [], "hc": [{ "et": "02/13/2022 - 13:41:50", "cl": 0, "ucl": 155, "cal": 155, "tl": 325, "lcq": 0, "cb": 0, "tb": 0, "bcq": 0 }] },
-      { "name": "StarterAssets.UICanvasControllerInput", "rp": "Assembly_CSharp_UICanvasControllerInput.html", "cl": 0, "ucl": 12, "cal": 12, "tl": 33, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [0], "bch": [], "hc": [{ "et": "02/13/2022 - 13:41:50", "cl": 0, "ucl": 12, "cal": 12, "tl": 33, "lcq": 0, "cb": 0, "tb": 0, "bcq": 0 }] },
-      { "name": "UIVirtualButton", "rp": "Assembly_CSharp_UIVirtualButton.html", "cl": 0, "ucl": 15, "cal": 15, "tl": 39, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [0], "bch": [], "hc": [{ "et": "02/13/2022 - 13:41:50", "cl": 0, "ucl": 15, "cal": 15, "tl": 39, "lcq": 0, "cb": 0, "tb": 0, "bcq": 0 }] },
-      { "name": "UIVirtualJoystick", "rp": "Assembly_CSharp_UIVirtualJoystick.html", "cl": 0, "ucl": 60, "cal": 60, "tl": 114, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [0], "bch": [], "hc": [{ "et": "02/13/2022 - 13:41:50", "cl": 0, "ucl": 60, "cal": 60, "tl": 114, "lcq": 0, "cb": 0, "tb": 0, "bcq": 0 }] },
-      { "name": "UIVirtualTouchZone", "rp": "Assembly_CSharp_UIVirtualTouchZone.html", "cl": 0, "ucl": 64, "cal": 64, "tl": 125, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [0], "bch": [], "hc": [{ "et": "02/13/2022 - 13:41:50", "cl": 0, "ucl": 64, "cal": 64, "tl": 125, "lcq": 0, "cb": 0, "tb": 0, "bcq": 0 }] },
-    ]},
-  {
-    "name": "Assembly-CSharp-Editor",
-    "classes": [
-      { "name": "ReadmeEditor", "rp": "Assembly_CSharp_Editor_ReadmeEditor.html", "cl": 0, "ucl": 99, "cal": 99, "tl": 159, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [0], "bch": [], "hc": [{ "et": "02/13/2022 - 13:41:50", "cl": 0, "ucl": 99, "cal": 99, "tl": 159, "lcq": 0, "cb": 0, "tb": 0, "bcq": 0 }] },
-    ]},
-  {
-    "name": "Tests",
-    "classes": [
-      { "name": "Example", "rp": "Tests_Example.html", "cl": 5, "ucl": 0, "cal": 5, "tl": 25, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [100], "bch": [], "hc": [{ "et": "02/13/2022 - 13:41:50", "cl": 5, "ucl": 0, "cal": 5, "tl": 25, "lcq": 100, "cb": 0, "tb": 0, "bcq": 0 }] },
+      { "name": "Karoushi.Config", "rp": "Karoushi_Config.html", "cl": 5, "ucl": 0, "cal": 5, "tl": 27, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [100], "bch": [], "hc": [{ "et": "02/15/2022 - 23:32:37", "cl": 5, "ucl": 0, "cal": 5, "tl": 27, "lcq": 100, "cb": 0, "tb": 0, "bcq": 0 }] },
+      { "name": "Karoushi.DestructibleComponent", "rp": "Karoushi_DestructibleComponent.html", "cl": 31, "ucl": 0, "cal": 31, "tl": 96, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [100], "bch": [], "hc": [{ "et": "02/15/2022 - 23:32:37", "cl": 31, "ucl": 0, "cal": 31, "tl": 96, "lcq": 100, "cb": 0, "tb": 0, "bcq": 0 }] },
+      { "name": "Karoushi.Furniture", "rp": "Karoushi_Furniture.html", "cl": 26, "ucl": 0, "cal": 26, "tl": 66, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [100], "bch": [], "hc": [{ "et": "02/15/2022 - 23:32:37", "cl": 26, "ucl": 0, "cal": 26, "tl": 66, "lcq": 100, "cb": 0, "tb": 0, "bcq": 0 }] },
+      { "name": "Karoushi.Panda", "rp": "Karoushi_Panda.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 26, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [100], "bch": [], "hc": [{ "et": "02/15/2022 - 23:32:37", "cl": 3, "ucl": 0, "cal": 3, "tl": 26, "lcq": 100, "cb": 0, "tb": 0, "bcq": 0 }] },
+      { "name": "Karoushi.Player", "rp": "Karoushi_Player.html", "cl": 60, "ucl": 0, "cal": 60, "tl": 174, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [100], "bch": [], "hc": [{ "et": "02/15/2022 - 23:32:37", "cl": 60, "ucl": 0, "cal": 60, "tl": 174, "lcq": 100, "cb": 0, "tb": 0, "bcq": 0 }] },
+      { "name": "Karoushi.Score", "rp": "Karoushi_Score.html", "cl": 35, "ucl": 0, "cal": 35, "tl": 68, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [100], "bch": [], "hc": [{ "et": "02/15/2022 - 23:32:37", "cl": 35, "ucl": 0, "cal": 35, "tl": 68, "lcq": 100, "cb": 0, "tb": 0, "bcq": 0 }] },
+      { "name": "Karoushi.ScoreManager", "rp": "Karoushi_ScoreManager.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 43, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [100], "bch": [], "hc": [{ "et": "02/15/2022 - 23:32:37", "cl": 3, "ucl": 0, "cal": 3, "tl": 43, "lcq": 100, "cb": 0, "tb": 0, "bcq": 0 }] },
+      { "name": "Karoushi.Singleton[T]", "rp": "Karoushi_Singleton_T_.html", "cl": 16, "ucl": 0, "cal": 16, "tl": 48, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [100], "bch": [], "hc": [{ "et": "02/15/2022 - 23:32:37", "cl": 16, "ucl": 0, "cal": 16, "tl": 48, "lcq": 100, "cb": 0, "tb": 0, "bcq": 0 }] },
+      { "name": "Karoushi.Utils", "rp": "Karoushi_Utils.html", "cl": 46, "ucl": 0, "cal": 46, "tl": 185, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [100], "bch": [], "hc": [{ "et": "02/15/2022 - 23:32:37", "cl": 46, "ucl": 0, "cal": 46, "tl": 185, "lcq": 100, "cb": 0, "tb": 0, "bcq": 0 }] },
     ]},
 ];
 
 var historicCoverageExecutionTimes = [];
 
 var riskHotspotMetrics = [
-      { "name": "Cyclomatic complexity", "explanationUrl": "https://en.wikipedia.org/wiki/Cyclomatic_complexity" },
-      { "name": "NPath complexity", "explanationUrl": "https://modess.io/npath-complexity-cyclomatic-complexity-explained" },
-      { "name": "Crap Score", "explanationUrl": "https://googletesting.blogspot.de/2011/02/this-code-is-crap.html" },
 ];
 
 var riskHotspots = [
-  {
-    "assembly": "Assembly-CSharp", "class": "StarterAssets.ThirdPersonController", "reportPath": "Assembly_CSharp_ThirdPersonController.html", "methodName": "System.Void StarterAssets.ThirdPersonController::JumpAndGravity()", "methodShortName": "JumpAndGravity()", "fileIndex": 0, "line": 238,
-    "metrics": [
-      { "value": 11, "exceeded": false },
-      { "value": 0, "exceeded": false },
-      { "value": 132, "exceeded": true },
-    ]},
-  {
-    "assembly": "Assembly-CSharp", "class": "StarterAssets.ThirdPersonController", "reportPath": "Assembly_CSharp_ThirdPersonController.html", "methodName": "System.Void StarterAssets.ThirdPersonController::Move()", "methodShortName": "Move()", "fileIndex": 0, "line": 177,
-    "metrics": [
-      { "value": 10, "exceeded": false },
-      { "value": 0, "exceeded": false },
-      { "value": 110, "exceeded": true },
-    ]},
-  {
-    "assembly": "Assembly-CSharp-Editor", "class": "ReadmeEditor", "reportPath": "Assembly_CSharp_Editor_ReadmeEditor.html", "methodName": "System.Void ReadmeEditor::OnInspectorGUI()", "methodShortName": "OnInspectorGUI()", "fileIndex": 0, "line": 80,
-    "metrics": [
-      { "value": 6, "exceeded": false },
-      { "value": 0, "exceeded": false },
-      { "value": 42, "exceeded": true },
-    ]},
 ];
 
 var branchCoverageAvailable = true;
