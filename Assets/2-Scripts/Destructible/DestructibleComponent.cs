@@ -74,7 +74,6 @@ namespace Karoushi
         protected virtual void GiveScoreToPlayer()
         {
             if (this.scoreToGive <= 0) return;
-            // TODO Add score to total
         }
 
         /// <summary>

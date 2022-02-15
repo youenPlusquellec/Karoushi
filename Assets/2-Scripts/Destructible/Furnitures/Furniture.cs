@@ -12,6 +12,28 @@ namespace Karoushi
         public GameObject DestroyedVersion;
 
         /// <summary>
+        /// Gives score to the player.
+        /// <example> Example(s) :
+        /// <code>
+        ///     furniture.GiveScoreToPlayer();
+        /// </code>
+        /// </example>
+        /// </summary>
+        protected override void GiveScoreToPlayer()
+        {
+            base.GiveScoreToPlayer();
+            Score score = ScoreManager.Instance.Score;
+            score.FurnituresScore += this.scoreToGive;
+            if (score.DestroyedFurnitures.ContainsKey(this.GetType().Name))
+            {
+                score.DestroyedFurnitures[this.GetType().Name] += 1;
+            } else
+            {
+                score.DestroyedFurnitures.Add(this.GetType().Name, 1);
+            }
+        }
+
+        /// <summary>
         /// Called when the component is destroyed.
         /// <example> Example(s) :
         /// <code>
