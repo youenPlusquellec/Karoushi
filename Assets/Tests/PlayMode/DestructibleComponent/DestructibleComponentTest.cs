@@ -45,18 +45,5 @@ namespace Karoushi.Test
             // Clear the scene
             Utils.ClearCurrentScene(true);
         }
-
-        // TODO  We can't create this test now
-        /*[Test]
-        public void DestructibleComponentGivesScoreToPlayerTest()
-        {
-            // Set default values
-            this.scoreToGive = 50;
-
-            // TODO 
-
-            // Clear the scene
-            Utils.ClearCurrentScene(true);
-        }*/
     }
 }
