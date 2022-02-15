@@ -22,14 +22,21 @@ namespace Karoushi
         protected override void GiveScoreToPlayer()
         {
             base.GiveScoreToPlayer();
-            Score score = ScoreManager.Instance.Score;
-            score.FurnituresScore += this.scoreToGive;
-            if (score.DestroyedFurnitures.ContainsKey(this.GetType().Name))
+            if (ScoreManager.Instance != null)
             {
-                score.DestroyedFurnitures[this.GetType().Name] += 1;
-            } else
-            {
-                score.DestroyedFurnitures.Add(this.GetType().Name, 1);
+                Score score = ScoreManager.Instance.Score;
+                if (score != null)
+                {
+                    score.FurnituresScore += this.scoreToGive;
+                    if (score.DestroyedFurnitures.ContainsKey(this.GetType().Name))
+                    {
+                        score.DestroyedFurnitures[this.GetType().Name] += 1;
+                    }
+                    else
+                    {
+                        score.DestroyedFurnitures.Add(this.GetType().Name, 1);
+                    }
+                }
             }
         }
 
