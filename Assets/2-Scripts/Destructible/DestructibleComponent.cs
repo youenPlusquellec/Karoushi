@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -16,7 +16,7 @@ namespace Karoushi
         protected float maxHealth;
 
         [SerializeField]
-        protected float scoreToGive;
+        protected float scoreToGive = 10;
 
         public float CurrentHealth;
         public bool IsDestroyed
@@ -74,7 +74,6 @@ namespace Karoushi
         protected virtual void GiveScoreToPlayer()
         {
             if (this.scoreToGive <= 0) return;
-            // TODO Add score to total
         }
 
         /// <summary>
