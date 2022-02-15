@@ -10,7 +10,7 @@ namespace Karoushi.Test
     {
         private Config GenerateConfig()
         {
-            Config config = new Config();
+            Config config = (Config)ScriptableObject.CreateInstance("Config");
 
             config.GameVolume = 100;
             config.GameSoundEffectsVolume = 50;

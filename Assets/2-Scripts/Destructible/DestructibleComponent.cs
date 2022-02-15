@@ -13,6 +13,9 @@ namespace Karoushi
         protected bool isDestroyed = false;
 
         [SerializeField]
+        protected string furnitureName = "undefined";
+
+        [SerializeField]
         protected float maxHealth;
 
         [SerializeField]
