@@ -1,0 +1,16 @@
+#!/bin/sh
+
+#echo $@
+#echo "Mon message de commit : $1"
+
+commit_msg=$(cat $1)
+echo $commit_msg
+
+
+if $(egrep -q '^:[a-z1-9_-]+:\ .*$' "$1"); then
+  echo "Good choice of gitmoji ! 👌"
+  exit 0
+else
+  echo "A gitmoji is missing ! 😮"
+  exit 1
+fi
