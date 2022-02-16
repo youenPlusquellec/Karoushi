@@ -1,0 +1,13 @@
+#!/bin/sh
+
+branch="$(git rev-parse --abbrev-ref HEAD)"
+
+if [ "$branch" = "master" ] || [ "$branch" = "main" ] || [ "$branch" = "develop" ]; then
+  echo "You can't commit directly on $branch branch"
+  exit 1
+fi
+
+if ! $(echo "$branch" | egrep -q '^[1-9]+-.+$'); then
+  echo "Your branch must start by a number"
+  exit 1
+fi

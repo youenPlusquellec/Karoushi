@@ -1,0 +1,9 @@
+#!/bin/sh
+
+if $(egrep -q '^:[a-z1-9_-]+:\ .*$' "$1"); then
+  echo "Good choice of gitmoji ! 👌"
+  exit 0
+else
+  echo "A gitmoji is missing ! 😮"
+  exit 1
+fi
