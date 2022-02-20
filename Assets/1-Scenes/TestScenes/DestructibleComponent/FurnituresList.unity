@@ -310,6 +310,11 @@ PrefabInstance:
       objectReference: {fileID: 1537548716}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
+--- !u!1 &469683185 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6506765273053091373, guid: aa404ab84ee68fd40a06358d50ea7d5b, type: 3}
+  m_PrefabInstance: {fileID: 1537548715}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &580389831
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -434,6 +439,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6631634408741138432, guid: 76d945bc50f47504ba090c3450a70b25, type: 3}
+      propertyPath: DestroyedVersion
+      value: 
+      objectReference: {fileID: 469683185}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76d945bc50f47504ba090c3450a70b25, type: 3}
 --- !u!1001 &1038215493
@@ -446,6 +455,10 @@ PrefabInstance:
     - target: {fileID: 2158824739060503008, guid: 0979915dc8990e246860a33c5ae0ad3b, type: 3}
       propertyPath: m_Name
       value: SeparationPanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 6204723351276047808, guid: 0979915dc8990e246860a33c5ae0ad3b, type: 3}
+      propertyPath: maxHealth
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 6417616711116597454, guid: 0979915dc8990e246860a33c5ae0ad3b, type: 3}
       propertyPath: m_RootOrder
@@ -880,6 +893,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5414991317213581679, guid: aa404ab84ee68fd40a06358d50ea7d5b, type: 3}
+      propertyPath: cursorLocked
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8348926881045877685, guid: aa404ab84ee68fd40a06358d50ea7d5b, type: 3}
       propertyPath: m_Name
       value: Panda
