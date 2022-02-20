@@ -23,7 +23,8 @@ var annotated_dup =
       [ "Score", "d9/d6c/class_karoushi_1_1_score.html", "d9/d6c/class_karoushi_1_1_score" ],
       [ "ScoreManager", "d7/d6f/class_karoushi_1_1_score_manager.html", "d7/d6f/class_karoushi_1_1_score_manager" ],
       [ "Singleton", "d7/dfd/class_karoushi_1_1_singleton.html", "d7/dfd/class_karoushi_1_1_singleton" ],
-      [ "Utils", "db/d30/class_karoushi_1_1_utils.html", "db/d30/class_karoushi_1_1_utils" ]
+      [ "Utils", "db/d30/class_karoushi_1_1_utils.html", "db/d30/class_karoushi_1_1_utils" ],
+      [ "Weapon", "dd/dc9/class_karoushi_1_1_weapon.html", "dd/dc9/class_karoushi_1_1_weapon" ]
     ] ],
     [ "StarterAssets", "d6/d14/namespace_starter_assets.html", [
       [ "StarterAssetsInputs", "d3/dcd/class_starter_assets_1_1_starter_assets_inputs.html", "d3/dcd/class_starter_assets_1_1_starter_assets_inputs" ],

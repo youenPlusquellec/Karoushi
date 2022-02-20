@@ -35,6 +35,7 @@ var hierarchy =
       ] ],
       [ "Karoushi.Scene.ShowScore", "de/d47/class_karoushi_1_1_scene_1_1_show_score.html", null ],
       [ "Karoushi.Singleton< T >", "d7/dfd/class_karoushi_1_1_singleton.html", null ],
+      [ "Karoushi.Weapon", "dd/dc9/class_karoushi_1_1_weapon.html", null ],
       [ "MobileDisableAutoSwitchControls", "dc/db9/class_mobile_disable_auto_switch_controls.html", null ],
       [ "StarterAssets.StarterAssetsInputs", "d3/dcd/class_starter_assets_1_1_starter_assets_inputs.html", null ],
       [ "StarterAssets.ThirdPersonController", "d8/ded/class_starter_assets_1_1_third_person_controller.html", null ],
