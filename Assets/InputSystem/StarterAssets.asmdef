@@ -1,9 +1,8 @@
 {
-    "name": "Karoushi",
-    "rootNamespace": "Karoushi",
+    "name": "StarterAssets",
+    "rootNamespace": "",
     "references": [
-        "GUID:75469ad4d38634e559750d17036d5f7c",
-        "GUID:7588ea7242201c344940188a35ea32d5"
+        "GUID:75469ad4d38634e559750d17036d5f7c"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

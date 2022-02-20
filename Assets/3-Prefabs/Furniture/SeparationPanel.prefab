@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 2286272902304297772}
   - component: {fileID: 1255567216567160535}
   - component: {fileID: 7179363299794312233}
-  - component: {fileID: 7598167781411085464}
   m_Layer: 0
   m_Name: Capsule (1)
   m_TagString: Untagged
@@ -82,20 +81,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &7598167781411085464
-CapsuleCollider:
+--- !u!65 &2942393501380691532
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1152608189544610232}
+  m_GameObject: {fileID: 2158824739060503008}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 2.0213866, y: 3.0608754, z: 0.14458086}
+  m_Center: {x: -0.005707979, y: 1.4868543, z: -0.011515252}
 --- !u!1 &3495360852384961053
 GameObject:
   m_ObjectHideFlags: 0
@@ -144,7 +142,6 @@ GameObject:
   - component: {fileID: 9022450872270457382}
   - component: {fileID: 3914261108189024526}
   - component: {fileID: 8303421162820452598}
-  - component: {fileID: 8743636798179458770}
   m_Layer: 0
   m_Name: PanelLeg
   m_TagString: Untagged
@@ -215,19 +212,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8743636798179458770
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3899468020348846193}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3962252374130852307
 GameObject:
   m_ObjectHideFlags: 0
@@ -239,7 +223,6 @@ GameObject:
   - component: {fileID: 5912598832722416242}
   - component: {fileID: 3502922472794383543}
   - component: {fileID: 4521611902647281462}
-  - component: {fileID: 8266415831783077466}
   m_Layer: 0
   m_Name: PanelLeg (1)
   m_TagString: Untagged
@@ -310,19 +293,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8266415831783077466
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3962252374130852307}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5406593637686226253
 GameObject:
   m_ObjectHideFlags: 0
@@ -334,7 +304,6 @@ GameObject:
   - component: {fileID: 5387082240522895082}
   - component: {fileID: 8146782886692893302}
   - component: {fileID: 7748349206016917752}
-  - component: {fileID: 7829572248498219419}
   m_Layer: 0
   m_Name: PanelFoot
   m_TagString: Untagged
@@ -405,20 +374,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &7829572248498219419
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5406593637686226253}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7951687619294971599
 GameObject:
   m_ObjectHideFlags: 0
@@ -430,7 +385,6 @@ GameObject:
   - component: {fileID: 1950026756448456986}
   - component: {fileID: 7382771752015673717}
   - component: {fileID: 2079909328544044739}
-  - component: {fileID: 8370367731203174395}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -501,20 +455,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &8370367731203174395
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7951687619294971599}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8141157937159945381
 GameObject:
   m_ObjectHideFlags: 0
@@ -526,7 +466,6 @@ GameObject:
   - component: {fileID: 3860638407729802229}
   - component: {fileID: 5441641985323935052}
   - component: {fileID: 5935479279447178760}
-  - component: {fileID: 7497453865405823257}
   m_Layer: 0
   m_Name: PanelFoot (1)
   m_TagString: Untagged
@@ -597,20 +536,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &7497453865405823257
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8141157937159945381}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8302274996889426398
 GameObject:
   m_ObjectHideFlags: 0
@@ -622,7 +547,6 @@ GameObject:
   - component: {fileID: 5995359078283971217}
   - component: {fileID: 7901287015991712686}
   - component: {fileID: 7904843941801814411}
-  - component: {fileID: 2745277347074644661}
   m_Layer: 0
   m_Name: Wall
   m_TagString: Untagged
@@ -693,19 +617,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2745277347074644661
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8302274996889426398}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1811145450868730094
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -770,5 +681,10 @@ PrefabInstance:
 --- !u!4 &6417616711116597454 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4624509985486749728, guid: 20cf2c296c911ea4f8e435cf2d6bca0f, type: 3}
+  m_PrefabInstance: {fileID: 1811145450868730094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2158824739060503008 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 348981248055490830, guid: 20cf2c296c911ea4f8e435cf2d6bca0f, type: 3}
   m_PrefabInstance: {fileID: 1811145450868730094}
   m_PrefabAsset: {fileID: 0}

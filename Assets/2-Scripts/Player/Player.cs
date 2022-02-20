@@ -11,6 +11,7 @@ namespace Karoushi {
     {
         protected bool isDead = false;
         protected bool isEnraged = false;
+        protected Weapon weapon;
 
         [SerializeField]
         protected float maxHealth;
@@ -38,6 +39,12 @@ namespace Karoushi {
         {
             this.currentHealth = this.maxHealth;
             this.currentRage = 0;
+            if (this)
+            {
+                this.weapon = GetComponentInChildren<Weapon>();
+                if (this.weapon)
+                    this.weapon.EnableCollider(false);
+            }
         }
 
         /// <summary>
@@ -45,16 +52,35 @@ namespace Karoushi {
         /// </summary>
         protected void Update()
         {
-            if (isEnraged)
-            {
-                float rageToSpend = ragePerSecond * Time.deltaTime;
-                RemoveRage(rageToSpend);
+            CheckForEnrage();
+        }
 
-                if (this.currentRage <= 0)
-                {
-                    this.isEnraged = false;
-                }
-            }
+        /// <summary>
+        /// Created to be called by an animation event.
+        /// Called when the attack animation starts.
+        /// <example> Example(s):
+        /// <code>
+        ///     this.AttackAnimationStart();
+        /// </code>
+        /// </example>
+        /// </summary>
+        public void AttackAnimationStart()
+        {
+            this.weapon.EnableCollider(true);
+        }
+
+        /// <summary>
+        /// Created to be called by an animation event.
+        /// Called when the attack animation starts.
+        /// <example> Example(s):
+        /// <code>
+        ///     this.AttackAnimationEnd();
+        /// </code>
+        /// </example>
+        /// </summary>
+        public void AttackAnimationEnd()
+        {
+            this.weapon.EnableCollider(false);
         }
 
         /// <summary>
@@ -102,6 +128,28 @@ namespace Karoushi {
                         isDead = true;
                         Die();
                     }
+                }
+            }
+        }
+
+        /// <summary>
+        /// This function is called to check if enrage is possible.
+        /// <example> Example(s):
+        /// <code>
+        ///     this.CheckForEnrage();
+        /// </code>
+        /// </example>
+        /// </summary>
+        private void CheckForEnrage()
+        {
+            if (isEnraged)
+            {
+                float rageToSpend = ragePerSecond * Time.deltaTime;
+                RemoveRage(rageToSpend);
+
+                if (this.currentRage <= 0)
+                {
+                    this.isEnraged = false;
                 }
             }
         }
