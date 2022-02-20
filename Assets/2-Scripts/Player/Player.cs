@@ -55,11 +55,29 @@ namespace Karoushi {
             CheckForEnrage();
         }
 
+        /// <summary>
+        /// Created to be called by an animation event.
+        /// Called when the attack animation starts.
+        /// <example> Example(s):
+        /// <code>
+        ///     this.AttackAnimationStart();
+        /// </code>
+        /// </example>
+        /// </summary>
         public void AttackAnimationStart()
         {
             this.weapon.EnableCollider(true);
         }
 
+        /// <summary>
+        /// Created to be called by an animation event.
+        /// Called when the attack animation starts.
+        /// <example> Example(s):
+        /// <code>
+        ///     this.AttackAnimationEnd();
+        /// </code>
+        /// </example>
+        /// </summary>
         public void AttackAnimationEnd()
         {
             this.weapon.EnableCollider(false);
