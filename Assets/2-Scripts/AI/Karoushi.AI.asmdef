@@ -1,0 +1,16 @@
+{
+    "name": "Karoushi.AI",
+    "rootNamespace": "Karoushi.AI",
+    "references": [
+        "GUID:085883ee4b30469459c4ebabc0378ef7"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
