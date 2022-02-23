@@ -21,10 +21,15 @@ var searchData=
   ['sprint_18',['sprint',['../d3/dcd/class_starter_assets_1_1_starter_assets_inputs.html#a5a6682ff95310879175ec67371e69650',1,'StarterAssets::StarterAssetsInputs']]],
   ['sprintinput_19',['SprintInput',['../d3/dcd/class_starter_assets_1_1_starter_assets_inputs.html#a0b6c9416893284cd1b6b757d1d4a5a91',1,'StarterAssets::StarterAssetsInputs']]],
   ['sprintspeed_20',['SprintSpeed',['../d8/ded/class_starter_assets_1_1_third_person_controller.html#aa55cac3d6e07189a23577fccd467752d',1,'StarterAssets::ThirdPersonController']]],
-  ['start_21',['Start',['../d6/db2/class_karoushi_1_1_destructible_component.html#a917c6d9f030847b7c552800fc46863d5',1,'Karoushi.DestructibleComponent.Start()'],['../dc/d83/class_karoushi_1_1_player.html#a847dcd87f8453a9c6701ee8e81900732',1,'Karoushi.Player.Start()']]],
-  ['starterassets_22',['StarterAssets',['../d6/d14/namespace_starter_assets.html',1,'']]],
-  ['starterassetsinputs_23',['StarterAssetsInputs',['../d3/dcd/class_starter_assets_1_1_starter_assets_inputs.html',1,'StarterAssets']]],
-  ['starterassetsinputs_24',['starterAssetsInputs',['../df/d2b/class_starter_assets_1_1_u_i_canvas_controller_input.html#a83727e7fa42fb7626ed4ce45d8cb80ee',1,'StarterAssets::UICanvasControllerInput']]],
-  ['starterassetsinputs_2ecs_25',['StarterAssetsInputs.cs',['../d3/dc6/_starter_assets_inputs_8cs.html',1,'']]],
-  ['strength_26',['strength',['../d4/d7f/class_basic_rigid_body_push.html#ad4aa7b3561a9a4ec94d8baa0dffde587',1,'BasicRigidBodyPush']]]
+  ['stage_21',['stage',['../d8/d2a/class_karoushi_1_1_a_i_1_1_state.html#af2c6c83c8a3a37665660056a9b1bc6c7',1,'Karoushi::AI::State']]],
+  ['start_22',['Start',['../da/da1/class_karoushi_1_1_a_i_1_1_a_i.html#a8e7f95833dfe049f8fea2d572cc6cc64',1,'Karoushi.AI.AI.Start()'],['../d6/db2/class_karoushi_1_1_destructible_component.html#a917c6d9f030847b7c552800fc46863d5',1,'Karoushi.DestructibleComponent.Start()'],['../dc/dda/class_karoushi_1_1_n_p_c.html#a33d1783b93ce1e670a593135be163bd6',1,'Karoushi.NPC.Start()'],['../dc/d83/class_karoushi_1_1_player.html#a847dcd87f8453a9c6701ee8e81900732',1,'Karoushi.Player.Start()']]],
+  ['starterassets_23',['StarterAssets',['../d6/d14/namespace_starter_assets.html',1,'']]],
+  ['starterassetsinputs_24',['StarterAssetsInputs',['../d3/dcd/class_starter_assets_1_1_starter_assets_inputs.html',1,'StarterAssets']]],
+  ['starterassetsinputs_25',['starterAssetsInputs',['../df/d2b/class_starter_assets_1_1_u_i_canvas_controller_input.html#a83727e7fa42fb7626ed4ce45d8cb80ee',1,'StarterAssets::UICanvasControllerInput']]],
+  ['starterassetsinputs_2ecs_26',['StarterAssetsInputs.cs',['../d3/dc6/_starter_assets_inputs_8cs.html',1,'']]],
+  ['state_27',['State',['../d8/d2a/class_karoushi_1_1_a_i_1_1_state.html',1,'Karoushi::AI']]],
+  ['state_28',['STATE',['../d8/d90/class_karoushi_1_1_a_i_1_1_state_1_1_s_t_a_t_e.html',1,'Karoushi::AI::State']]],
+  ['state_29',['State',['../d8/d2a/class_karoushi_1_1_a_i_1_1_state.html#afaac0479ae651c62bb9253295e21e6d4',1,'Karoushi::AI::State']]],
+  ['state_2ecs_30',['State.cs',['../d6/df4/_state_8cs.html',1,'']]],
+  ['strength_31',['strength',['../d4/d7f/class_basic_rigid_body_push.html#ad4aa7b3561a9a4ec94d8baa0dffde587',1,'BasicRigidBodyPush']]]
 ];

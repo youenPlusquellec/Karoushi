@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CoverageReport scope="Summary">
   <Summary>
-    <Generatedon>02/20/2022 - 19:22:43</Generatedon>
+    <Generatedon>02/23/2022 - 00:28:13</Generatedon>
     <Parser>OpenCoverParser</Parser>
     <Assemblies>1</Assemblies>
-    <Classes>10</Classes>
-    <Files>10</Files>
+    <Classes>11</Classes>
+    <Files>11</Files>
     <Coveredlines>229</Coveredlines>
-    <Uncoveredlines>22</Uncoveredlines>
-    <Coverablelines>251</Coverablelines>
-    <Totallines>829</Totallines>
-    <Linecoverage>91.2</Linecoverage>
+    <Uncoveredlines>39</Uncoveredlines>
+    <Coverablelines>268</Coverablelines>
+    <Totallines>890</Totallines>
+    <Linecoverage>85.4</Linecoverage>
     <Coveredbranches>0</Coveredbranches>
     <Totalbranches>0</Totalbranches>
     <Coveredmethods>35</Coveredmethods>
-    <Totalmethods>39</Totalmethods>
-    <Methodcoverage>89.7</Methodcoverage>
+    <Totalmethods>42</Totalmethods>
+    <Methodcoverage>83.3</Methodcoverage>
   </Summary>
   <Coverage>
-    <Assembly name="Karoushi" classes="10" coverage="91.2" coveredlines="229" coverablelines="251" totallines="829" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="35" totalmethods="39" methodcoverage="89.7">
+    <Assembly name="Karoushi" classes="11" coverage="85.4" coveredlines="229" coverablelines="268" totallines="890" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="35" totalmethods="42" methodcoverage="83.3">
       <Class name="Karoushi.Config" coverage="100" coveredlines="5" coverablelines="5" totallines="27" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="1" methodcoverage="100" />
       <Class name="Karoushi.DestructibleComponent" coverage="100" coveredlines="31" coverablelines="31" totallines="96" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="6" totalmethods="6" methodcoverage="100" />
       <Class name="Karoushi.Furniture" coverage="100" coveredlines="26" coverablelines="26" totallines="66" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="2" methodcoverage="100" />
+      <Class name="Karoushi.NPC" coverage="0" coveredlines="0" coverablelines="17" totallines="61" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="3" methodcoverage="0" />
       <Class name="Karoushi.Panda" coverage="100" coveredlines="3" coverablelines="3" totallines="26" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="1" methodcoverage="100" />
       <Class name="Karoushi.Player" coverage="85.3" coveredlines="64" coverablelines="75" totallines="222" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="10" totalmethods="12" methodcoverage="83.3" />
       <Class name="Karoushi.Score" coverage="100" coveredlines="35" coverablelines="35" totallines="68" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="5" totalmethods="5" methodcoverage="100" />

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['weapon_0',['Weapon',['../dd/dc9/class_karoushi_1_1_weapon.html',1,'Karoushi']]]
+  ['thirdpersoncontroller_0',['ThirdPersonController',['../d8/ded/class_starter_assets_1_1_third_person_controller.html',1,'StarterAssets']]]
 ];

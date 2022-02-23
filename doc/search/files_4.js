@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['mobiledisableautoswitchcontrols_2ecs_0',['MobileDisableAutoSwitchControls.cs',['../d7/d12/_mobile_disable_auto_switch_controls_8cs.html',1,'']]]
+  ['furniture_2ecs_0',['Furniture.cs',['../d4/d25/_furniture_8cs.html',1,'']]],
+  ['furnituretest_2ecs_1',['FurnitureTest.cs',['../d6/dce/_furniture_test_8cs.html',1,'']]]
 ];

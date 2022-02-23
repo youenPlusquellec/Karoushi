@@ -21,6 +21,7 @@ var searchData=
   ['currenthealth_18',['CurrentHealth',['../d6/db2/class_karoushi_1_1_destructible_component.html#a9e3fee532e776519fc9f43af1a81727f',1,'Karoushi::DestructibleComponent']]],
   ['currenthealth_19',['currentHealth',['../dc/d83/class_karoushi_1_1_player.html#ad87ce168a829dbf2be3b05d0874cfabc',1,'Karoushi::Player']]],
   ['currentrage_20',['currentRage',['../dc/d83/class_karoushi_1_1_player.html#a6640b424084fbaacbabd40d258f1e39c',1,'Karoushi::Player']]],
-  ['cursorinputforlook_21',['cursorInputForLook',['../d3/dcd/class_starter_assets_1_1_starter_assets_inputs.html#a09a29f2ec7ea66a337f070fdcac32b86',1,'StarterAssets::StarterAssetsInputs']]],
-  ['cursorlocked_22',['cursorLocked',['../d3/dcd/class_starter_assets_1_1_starter_assets_inputs.html#af8ca308ca4c23697f87e14066eb4a68f',1,'StarterAssets::StarterAssetsInputs']]]
+  ['currentstate_21',['currentState',['../da/da1/class_karoushi_1_1_a_i_1_1_a_i.html#a140094d1716e088c8f360b20bb495950',1,'Karoushi::AI::AI']]],
+  ['cursorinputforlook_22',['cursorInputForLook',['../d3/dcd/class_starter_assets_1_1_starter_assets_inputs.html#a09a29f2ec7ea66a337f070fdcac32b86',1,'StarterAssets::StarterAssetsInputs']]],
+  ['cursorlocked_23',['cursorLocked',['../d3/dcd/class_starter_assets_1_1_starter_assets_inputs.html#af8ca308ca4c23697f87e14066eb4a68f',1,'StarterAssets::StarterAssetsInputs']]]
 ];

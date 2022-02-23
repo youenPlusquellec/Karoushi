@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['basicrigidbodypush_0',['BasicRigidBodyPush',['../d4/d7f/class_basic_rigid_body_push.html',1,'']]]
+  ['ai_0',['AI',['../da/da1/class_karoushi_1_1_a_i_1_1_a_i.html',1,'Karoushi::AI']]]
 ];

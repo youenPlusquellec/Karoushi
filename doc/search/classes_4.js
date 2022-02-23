@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['mobiledisableautoswitchcontrols_0',['MobileDisableAutoSwitchControls',['../dc/db9/class_mobile_disable_auto_switch_controls.html',1,'']]]
+  ['furniture_0',['Furniture',['../d9/d05/class_karoushi_1_1_furniture.html',1,'Karoushi']]],
+  ['furnitureexternaltest_1',['FurnitureExternalTest',['../d4/d9d/class_karoushi_1_1_test_1_1_furniture_external_test.html',1,'Karoushi::Test']]],
+  ['furnituretest_2',['FurnitureTest',['../d1/dc6/class_karoushi_1_1_test_1_1_furniture_test.html',1,'Karoushi::Test']]]
 ];

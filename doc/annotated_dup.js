@@ -1,6 +1,10 @@
 var annotated_dup =
 [
     [ "Karoushi", "d5/d6b/namespace_karoushi.html", [
+      [ "AI", "d6/d01/namespace_karoushi_1_1_a_i.html", [
+        [ "AI", "da/da1/class_karoushi_1_1_a_i_1_1_a_i.html", "da/da1/class_karoushi_1_1_a_i_1_1_a_i" ],
+        [ "State", "d8/d2a/class_karoushi_1_1_a_i_1_1_state.html", "d8/d2a/class_karoushi_1_1_a_i_1_1_state" ]
+      ] ],
       [ "Scene", "d7/d90/namespace_karoushi_1_1_scene.html", [
         [ "ShowScore", "de/d47/class_karoushi_1_1_scene_1_1_show_score.html", "de/d47/class_karoushi_1_1_scene_1_1_show_score" ]
       ] ],
@@ -18,6 +22,7 @@ var annotated_dup =
       [ "Config", "d2/ddf/class_karoushi_1_1_config.html", "d2/ddf/class_karoushi_1_1_config" ],
       [ "DestructibleComponent", "d6/db2/class_karoushi_1_1_destructible_component.html", "d6/db2/class_karoushi_1_1_destructible_component" ],
       [ "Furniture", "d9/d05/class_karoushi_1_1_furniture.html", "d9/d05/class_karoushi_1_1_furniture" ],
+      [ "NPC", "dc/dda/class_karoushi_1_1_n_p_c.html", "dc/dda/class_karoushi_1_1_n_p_c" ],
       [ "Panda", "d6/d7e/class_karoushi_1_1_panda.html", "d6/d7e/class_karoushi_1_1_panda" ],
       [ "Player", "dc/d83/class_karoushi_1_1_player.html", "dc/d83/class_karoushi_1_1_player" ],
       [ "Score", "d9/d6c/class_karoushi_1_1_score.html", "d9/d6c/class_karoushi_1_1_score" ],

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['config_0',['Config',['../d2/ddf/class_karoushi_1_1_config.html',1,'Karoushi']]],
-  ['configtest_1',['ConfigTest',['../d8/d26/class_karoushi_1_1_test_1_1_config_test.html',1,'Karoushi::Test']]]
+  ['basicrigidbodypush_0',['BasicRigidBodyPush',['../d4/d7f/class_basic_rigid_body_push.html',1,'']]]
 ];

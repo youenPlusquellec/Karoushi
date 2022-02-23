@@ -21,10 +21,12 @@ var hierarchy =
     ] ],
     [ "MonoBehaviour", null, [
       [ "BasicRigidBodyPush", "d4/d7f/class_basic_rigid_body_push.html", null ],
+      [ "Karoushi.AI.AI", "da/da1/class_karoushi_1_1_a_i_1_1_a_i.html", null ],
       [ "Karoushi.DestructibleComponent", "d6/db2/class_karoushi_1_1_destructible_component.html", [
         [ "Karoushi.Furniture", "d9/d05/class_karoushi_1_1_furniture.html", [
           [ "Karoushi.Test.FurnitureTest", "d1/dc6/class_karoushi_1_1_test_1_1_furniture_test.html", null ]
         ] ],
+        [ "Karoushi.NPC", "dc/dda/class_karoushi_1_1_n_p_c.html", null ],
         [ "Karoushi.Test.DestructibleComponentTest", "d4/d09/class_karoushi_1_1_test_1_1_destructible_component_test.html", null ]
       ] ],
       [ "Karoushi.Player", "dc/d83/class_karoushi_1_1_player.html", [
@@ -54,6 +56,8 @@ var hierarchy =
       ] ]
     ] ],
     [ "Karoushi.Test.SingletonTest", "db/d7b/class_karoushi_1_1_test_1_1_singleton_test.html", null ],
+    [ "Karoushi.AI.State", "d8/d2a/class_karoushi_1_1_a_i_1_1_state.html", null ],
+    [ "Karoushi.AI.State.STATE", "d8/d90/class_karoushi_1_1_a_i_1_1_state_1_1_s_t_a_t_e.html", null ],
     [ "Karoushi.Utils", "db/d30/class_karoushi_1_1_utils.html", null ],
     [ "Karoushi.Test.UtilsTest", "d6/d16/class_karoushi_1_1_test_1_1_utils_test.html", null ]
 ];
