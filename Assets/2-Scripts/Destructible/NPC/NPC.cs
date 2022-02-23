@@ -23,7 +23,7 @@ namespace Karoushi
         /// Active or not the ragdoll mode.
         /// <example> Example(s) :
         /// <code>
-        ///     npc.SetKinematic(true); // Active the ragdoll
+        ///     npc.SetKinematic(false); // Active the ragdoll
         /// </code>
         /// </example>
         /// </summary>
